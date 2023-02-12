@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
-
     <data class="MainBinding">
         <import type="android.view.View" />
         <variable
@@ -25,7 +24,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-
                 android:text="@{model.title}"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -45,7 +43,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-
                 android:text="일"
                 android:textColor="#ffff0000"
                 android:textSize="10sp" />
@@ -55,7 +52,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-
                 android:text="월"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -65,7 +61,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-
                 android:text="화"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -75,7 +70,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-
                 android:text="수"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -85,7 +79,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-
                 android:text="목"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -95,7 +88,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-
                 android:text="금"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -105,13 +97,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-
                 android:text="토"
                 android:textColor="#ff0000ff"
                 android:textSize="10sp" />
             
         </LinearLayout>
 
+        <!--캘린더-->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
