@@ -6,7 +6,7 @@
         <import type="android.view.View" />
         <variable
             name="model"
-            type="com.example.simplecalendar.viewmodel.EmptyDayViewModel" />
+            type="com.example.simplecalendar.viewmodel.EmptyViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
